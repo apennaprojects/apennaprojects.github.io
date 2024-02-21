@@ -34,6 +34,15 @@ li a:hover:not(.active) {
 </style>
 </head>
 <body>
+  <div class="popup" onclick="myFunction()">balls
+    <span class="popuptext" id="myPopup">test balls</span>
+  </div>
+  <script>
+    function onPopup() {
+      var popup = document.getElementById("onPupup");
+      popup.classList.toggle("show");
+    }
+  </script>
 <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">Purchase</a></li>
